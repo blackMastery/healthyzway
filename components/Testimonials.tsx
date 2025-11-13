@@ -94,14 +94,19 @@ export default function Testimonials({
         <div className="mt-16 text-center">
           <p className="text-gray-600 mb-6 text-lg">As seen on:</p>
           <div className="flex justify-center items-center gap-12">
-            <div className="flex items-center gap-3">
+            <a
+              href="https://www.instagram.com/healthyzway.gy?igsh=NmdqZmRlODBiYTB4&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 hover:opacity-80 transition"
+            >
               <Instagram className="w-8 h-8 text-pink-600" />
-              <span className="font-bold text-gray-900">@healthyway.gy</span>
-            </div>
-            <div className="flex items-center gap-3">
+              <span className="font-bold text-gray-900">@healthyzway.gy</span>
+            </a>
+            {/* <div className="flex items-center gap-3">
               <div className="text-3xl">📱</div>
               <span className="font-bold text-gray-900">@Healthyzway</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

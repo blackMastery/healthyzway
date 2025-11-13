@@ -41,10 +41,10 @@ export default function WhyChoose() {
             <div className="inline-flex p-6 bg-white rounded-2xl shadow-lg mb-6">
               <div className="text-5xl">💳</div>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">Convenient Payment</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-3">Payment Upon Delivery</h3>
             <p className="text-gray-700 leading-relaxed">
-              Simplify your ordering process with our secure MMG payment option for
-              seamless transactions
+              Pay securely with MMG when your order arrives. No upfront payment required - 
+              order now and pay upon delivery
             </p>
           </div>
         </div>

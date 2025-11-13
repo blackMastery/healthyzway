@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Instagram } from 'lucide-react';
 
 export default function Footer() {
@@ -38,7 +39,6 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Contact</h3>
             <div className="space-y-2 text-gray-400">
               <p>+(592) 625-7160</p>
-              <p>+(592) 710-7160</p>
               <p>Healthyzway@gmail.com</p>
             </div>
           </div>
@@ -46,22 +46,23 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">Follow Us</h3>
             <div className="flex gap-4">
-              <a
-                href="https://instagram.com/healthyway.gy"
+              <Link
+                href="https://www.instagram.com/healthyzway.gy?igsh=NmdqZmRlODBiYTB4&utm_source=qr"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Follow Healthyzway on Instagram"
                 className="w-12 h-12 bg-pink-600 rounded-full flex items-center justify-center hover:bg-pink-700 transition"
               >
                 <Instagram className="w-6 h-6" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://tiktok.com/@Healthyzway"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center hover:bg-gray-600 transition"
               >
                 <div className="text-xl">📱</div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
