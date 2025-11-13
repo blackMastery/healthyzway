@@ -40,14 +40,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://healthyzway.com'),
+  metadataBase: new URL('https://healthyzway.vercel.app'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://healthyzway.com',
+    url: 'https://healthyzway.vercel.app',
     siteName: 'HealthyzWay',
     title: 'HealthyzWay - Premium SeaMoss Gel | 92+ Minerals',
     description: 'Experience the power of authentic Gold SeaMoss gel packed with 92+ essential minerals. Boost immunity, improve skin health, and increase energy naturally.',
@@ -79,7 +79,10 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/logo.png',
+    icon: [
+      { url: '/logo.png', sizes: 'any' },
+      { url: '/logo.png', type: 'image/png' },
+    ],
     shortcut: '/logo.png',
     apple: '/logo.png',
   },
