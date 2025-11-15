@@ -140,9 +140,9 @@ export default function Cart({
               <div className="bg-emerald-50 p-4 rounded-xl">
                 <div className="flex items-center gap-2 text-emerald-800 font-medium mb-2">
                   <Lock className="w-5 h-5" />
-                  Payment Upon Delivery
+                  Flexible Payment Options
                 </div>
-                <p className="text-sm text-emerald-700">Pay securely with MMG when your order arrives. Your order will be freshly prepared.</p>
+                <p className="text-sm text-emerald-700">Pay upon delivery or use MMG. Your order will be freshly prepared.</p>
               </div>
             </>
           )}

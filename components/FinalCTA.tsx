@@ -77,7 +77,7 @@ export default function FinalCTA({
           </div>
           <div className="flex items-center gap-2">
             <Check className="w-5 h-5" />
-            Pay Upon Delivery (MMG)
+            Pay Upon Delivery or MMG
           </div>
         </div>
       </div>
