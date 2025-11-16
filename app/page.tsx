@@ -39,7 +39,7 @@ export default function HealthyzwayLanding() {
     {
       id: 'original',
       name: 'Original Gold SeaMoss',
-      price: { '8oz': 200000, '11oz': 250000 },
+      price: { '8oz': 200000, '11oz': 300000 },
       description: 'Pure & Natural - No Additives',
       color: 'emerald',
       gradient: 'from-emerald-400 to-teal-500',
@@ -48,7 +48,7 @@ export default function HealthyzwayLanding() {
     {
       id: 'apple',
       name: 'Apple & Ginger',
-      price: { '8oz': 250000, '11oz': 300000 },
+      price: { '8oz': 250000, '11oz': 350000 },
       description: 'Refreshing & Energizing',
       color: 'green',
       gradient: 'from-green-400 to-lime-500',
@@ -57,7 +57,7 @@ export default function HealthyzwayLanding() {
     {
       id: 'watermelon',
       name: 'Watermelon',
-      price: { '8oz': 250000, '11oz': 300000 },
+      price: { '8oz': 250000, '11oz': 350000 },
       description: 'Sweet & Hydrating',
       color: 'pink',
       gradient: 'from-pink-400 to-red-500',
@@ -66,7 +66,7 @@ export default function HealthyzwayLanding() {
     {
       id: 'dragon',
       name: 'Dragonfruit',
-      price: { '8oz': 310000, '11oz': 360000 },
+      price: { '8oz': 310000, '11oz': 410000 },
       description: 'Exotic & Delicious',
       color: 'purple',
       gradient: 'from-purple-400 to-pink-500',
@@ -75,7 +75,7 @@ export default function HealthyzwayLanding() {
     {
       id: 'strawberry',
       name: 'Strawberry',
-      price: { '8oz': 350000, '11oz': 400000 },
+      price: { '8oz': 350000, '11oz': 450000 },
       description: 'Rich & Flavorful',
       color: 'red',
       gradient: 'from-red-400 to-rose-500',

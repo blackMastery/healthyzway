@@ -59,7 +59,7 @@ export default function Products({
                   : 'text-gray-700 hover:bg-gray-50'
               }`}
             >
-              11oz
+              11oz (350ml)
             </button>
           </div>
         </div>
