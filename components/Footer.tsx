@@ -84,6 +84,17 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
           <p>© 2024 Healthyzway. All rights reserved.</p>
           <p className="text-sm mt-2">🇬🇾 Proudly Guyanese-Owned • Made with 🌊 for your health & wellness</p>
+          <p className="text-sm mt-2">
+            Built by{' '}
+            <Link
+              href="https://kevoncadogan.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-emerald-400 hover:text-emerald-300 transition"
+            >
+              kevoncadogan.com
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
